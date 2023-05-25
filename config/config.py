@@ -14,7 +14,7 @@ API_ID = int(getenv("API_ID", "12987601"))
 API_HASH = getenv("API_HASH","a6581bb9160931c45197461bb7e81f90")
 
 ## توكن البوت بنجيبو من هنا @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN","1480911289:AAHFn14TpnylOLe3F04CYQdsiVKHgySGmKk")
+BOT_TOKEN = getenv("BOT_TOKEN","1480911289:AAGqr7e_WsSOdgOA84kh4L54ikcUOvnYo1g")
 
 # المونج لو ممعكش سيبو زي مهوه
 MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://moon:bootsmoon@cluster0.uyvnnox.mongodb.net/?retryWrites=true&w=majority")
@@ -68,7 +68,7 @@ SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/UZZDD"
 )  #جروب السورس https://t.me/BarGohara
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/UZZDD"
+    "SUPPORT_GROUP",
 ) 
 
 # ما تلعب بيها حبي هي عند الاغنيه متخلص ينزل المساعد من الكول
@@ -158,7 +158,7 @@ autoclean = []
 
 
 # صوره الاستارت
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/9633a17b522e001afba6b.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/f8c89bb5b2c168d81d442.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
