@@ -111,7 +111,7 @@ async def check_is_joined(message):
 
     except Exception:
 
-        await message.reply_text( "**◇︰ عذرا، عليك لاشتراك في قناة البوت أولاً." ,reply_markup=force_btn,parse_mode="markdown",disable_web_page_preview=False)
+        await message.reply_text( "**↝: عذرا . عليك لاشتراك في قناة البوت أولاً .**" ,reply_markup=force_btn,parse_mode="markdown",disable_web_page_preview=False)
 
         return False
 
