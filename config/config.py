@@ -10,11 +10,11 @@ from pyrogram import filters
 load_dotenv()
 
 # الايبيهات الهاش والايدي بنجبهم من هنا my.telegram.org
-API_ID = int(getenv("API_ID", "28445440"))
-API_HASH = getenv("API_HASH","db518094aa6f3ba90c3e9a9f48dfacd4")
+API_ID = int(getenv("API_ID", "18349087"))
+API_HASH = getenv("API_HASH","eb20afa0e1d09401066b82bebf079ce2")
 
 ## توكن البوت بنجيبو من هنا @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN","1480911289:AAGqr7e_WsSOdgOA84kh4L54ikcUOvnYo1g")
+BOT_TOKEN = getenv("BOT_TOKEN","5974913213:AAE-EdPkb-ygoG4J_Yn4w_garTbPIs96S1w")
 
 # المونج لو ممعكش سيبو زي مهوه
 MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://moon:bootsmoon@cluster0.uyvnnox.mongodb.net/?retryWrites=true&w=majority")
@@ -33,11 +33,11 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001645162547"))
 
 # اسم البوت مينفعش تكتبو مزغرف
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","moon")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","music Twix")
 
 # ايديهات المطورين الملاك
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5217623359").split())
+    map(int, getenv("OWNER_ID", "5469634070").split())
 ) 
 
 # سيبو زي مهوه ملهوش لزمه
@@ -135,7 +135,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 
 # جلسه البايروجران تقدر تجبها من هنا@helal_trmix_BOT
-STRING1 = getenv("STRING_SESSION", "AgAkTJbVWGJpdi-vbR1GUWIUnED-p4tg95fIwi1ViQu95mwJXlquO2JjquA-4ETNBa-N8Q_h20ElL8LZIR56fjtn-SU-piogsuV6Wy-eFjAKhj1Qv0swk6uVvVBZ5XEJegwnvKLzTCQHmUtSvWRZg2tb_Q1sAEmKAYnvBjQXbdDOHpMlvR4m6iO1jOdJ2UGYi9Wy4AVaYrZK52dGdziRJMNrCXKFyTASU8sIoQKeOhoejqzaCpD7n641_KohbUTjBpXSLghdzlqxLHg-c88lzoEJL-ZeZ-Uc6_U52WIBr0Fk1fAHSxfNygInzrxM8gZAfHA4mjERhekBADHKUnDLFmKTAAAAAW5TWEAA")
+STRING1 = getenv("STRING_SESSION", "AgALxGG0Q973i6Ym4Zb8jRhMsICEVP-BG2qCwbHTQuG3DAhwPfq6MiZnsSiKW1gf7WOsOgMzGysIB-PZmbERlMZt4xZj36vFHHvArYkIbveiRokq193JvHbxKV3XX92cpPxCtdI4LqNuBUw_Ts54CifBHqNlZ5PnSa_dPmWYKD1Eo5xn47n0CS7UBNXoKdPbXjuLRvkX6pIhndHwrWR7IBvZZPRdXfl8sLILkW27CUFREToOrRAaT89Ce3IDKUIHl6mG8SETgDGlDjH6axrdLA9fsdxwaFjKMLlGkqdUsg9sPoXQm0ggQUFqPWaQhsRau84fO68wHqnrVvVptm2dl3z4AAAAAUR2spcA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -158,7 +158,7 @@ autoclean = []
 
 
 # صوره الاستارت
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/f8c89bb5b2c168d81d442.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/9633a17b522e001afba6b.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
